@@ -166,6 +166,25 @@ ul>li{
     padding: 20px;
     box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+/* phone */
+.phone-containers{
+    background-color: #e2edfa;
+    margin-top: 100px;
+}
+.phone-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.phone-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.apps-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 /* responsive */
 @media screen and (max-width:576px){
     .nav-container{
